@@ -627,12 +627,12 @@ margin-top: 160px;
   }
   .hero-banner-image{
     width: 77%;
-    height: 62%;
+    height: 50%;
     top: -2%;
     right: -6%;
   }
   .footer-banner-container{
-    height: 560px;
+    height: auto;
     margin-top: 80px;
     padding: 50px;
   }
@@ -640,15 +640,16 @@ margin-top: 160px;
     width: 77%;
     left: 30%;
     top: 6%;
-    height: 56%
+    height: 45%
   }
   .banner-desc .left h3{
     font-weight: 900;
     font-size: 50px;
-    margin-left: 5px;
+    margin-left: 0;
   }
   .banner-desc .left p{
-    margin:18px;
+    margin-top:18px;
+    margin-left: 0;
   }
   .banner-desc .right h3{
     font-size: 45px;
@@ -683,11 +684,11 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 350px;
-    height: 350px;
+    width: 310px;
+    height: 310px;
   }
   .cart-container{
-    width: 415px;
+    width: 100%;
   padding: 4px;
   }
   .cart-heading{
@@ -703,6 +704,9 @@ margin-top: 160px;
   .product .cart-product-image{
     width: 25%;
     height: 25%;
+  }
+  .product-detail-desc .buttons{
+    gap: 10px;
   }
   .buttons .add-to-cart{
     width: 150px;
