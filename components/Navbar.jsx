@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navbar-container'>
       <p className='logo'>
         <Link href="/">
-          JoshFreeman Store
+          Qraimo Store
         </Link>
       </p>
       <button type='button' className='cart-icon' onClick={()=>setShowCart((prevState) => !prevState)
